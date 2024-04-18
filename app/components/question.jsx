@@ -37,7 +37,7 @@ const Question = ({
 
   useEffect(() => {
     if (result?.result) {
-      push(`/results?${result.result}`);
+      push(`/results?r=${result.result}`);
     }
   }, [result, push]);
 
